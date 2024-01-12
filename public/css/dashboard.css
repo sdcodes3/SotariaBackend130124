@@ -1,0 +1,49 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.dashboard *{
+    font-size: 1.25rem;
+    color: #939EAA;
+}
+
+.main nav{
+    border-bottom: 0.5px solid #CDD1D7;
+}
+
+main{
+    background-color: rgba(201, 222, 255,0.2);
+}
+
+.card-container{
+    box-shadow: 7px 11px 42px -16px rgba(0, 0, 0, 0.25);
+    border-radius: 2.21rem;
+}
+
+.card-img-container{
+    width: 6.813rem;
+    height: 6.813rem;
+    border-radius: 50%;
+    border: 0.5px solid #286CC3;
+    background-color: #F4F8FF;
+}
+
+.figures{
+    font-family: 'Spline Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.circle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.profile{
+    background-image: url("../img/profile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

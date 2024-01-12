@@ -1,0 +1,157 @@
+.header{
+    background-color: #104E9E;
+    box-shadow: 1px 7px 21px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0px 0px;
+}
+
+input{
+    outline: none;
+}
+
+.box-container .card-img-container{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 0.5px solid #286CC3;
+    background-color: #F4F8FF;
+}
+
+.details{
+    font-size: 1.25rem;
+    color: #939EAA;
+}
+
+input:focus{
+    color: black;
+}
+
+.box{
+    border: 0.5px solid #939EAA;
+    border-radius: 5px;
+}
+
+.box-container{
+    box-shadow: 3px 2px 21px -5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.insurance-container{
+    width: 11.563rem;
+    height: 11.563rem;
+    box-shadow: 2px 1px 68px -31px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+.insurances{
+    cursor: pointer;
+}
+
+.insurances:hover > .insurance-container{
+    border: 1px solid #00A3FF;
+}
+.insurances:hover > .insurance-title{
+    color: #00A3FF;
+    font-weight: 600;
+}
+
+.insurance-title{
+    color: black;
+    font-size: 1.25rem;
+}
+
+.body{
+    font-size: 1.25rem;
+}
+
+.group-title{
+    font-size: 1.875rem;
+}
+
+table {
+    text-align: center;
+}
+
+table *{
+    color: black !important;
+    font-size: 1.125rem;
+    vertical-align: middle;
+}
+
+/* thead *{
+    color: white !important;
+} */
+
+.outline-none{
+    border: none;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+.br-15{
+    border-radius: 15px;
+}
+
+.outline-0{
+    outline: none;
+}
+
+.up-area{
+    border: 1px solid #92959A;
+    box-shadow: 4px 4px 13px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.btn-custom{
+    background-color: #EF7C00;
+    opacity: 0.5;
+    border: 1px solid #EF7C00;
+    border-radius: 5px;
+}
+
+/* Add Agent Modal */
+
+#addAgentModal *{
+    font-size: 1.25rem;
+}
+
+#addAgentModal input{
+    border: none;
+    outline: none;
+    font-family: 'Nunito';
+    width: 100%;
+}
+
+#addAgentModal input[type="date"],
+#addAgentModal select{
+    color: #92959A;
+}
+
+#addAgentModal .shadow1{
+    box-shadow: 4px 4px 13px -3px #00000040;
+    min-height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#addAgentModal .input-active{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+#addAgentModal .input-active:focus-within *{
+    color: #00A3FF;
+}
+
+#addAgentModal .input-active:focus-within .shadow1{
+    border: 1px solid #00A3FF;
+}
+
+/* end */
+
+/* Success Toast */
+.toast{
+    width: 100%;
+}

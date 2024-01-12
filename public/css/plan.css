@@ -1,0 +1,73 @@
+/* Add Agent Modal */
+
+#addPlanModal *{
+    font-size: 1.25rem;
+}
+
+#addPlanModal input{
+    border: none;
+    outline: none;
+    font-family: 'Nunito';
+    width: 100%;
+}
+
+#addPlanModal input[type="date"],
+#addPlanModal select{
+    color: #92959A;
+}
+
+#addPlanModal .shadow1{
+    box-shadow: 4px 4px 13px -3px #00000040;
+    min-height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#addPlanModal .input-active{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+#addPlanModal .input-active:focus-within *{
+    color: #00A3FF;
+}
+
+#addPlanModal .input-active:focus-within .shadow1{
+    border: 1px solid #00A3FF;
+}
+
+/* end */
+
+.accordion-button::after{
+    background-image: url(../img/icon-up-arrow.png);
+    height: 0.75rem;
+    transform: rotate(180deg);
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../img/icon-up-arrow.png);
+    height: 0.75rem;
+    transform: rotate(0deg);
+}
+
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+
+.accordion table tbody *,
+.inner-text-light table tbody *{
+    color: #939EAA !important;
+}
+
+.accordion table thead *{
+    border: none !important;
+}
+
+.caption-top *{
+    color: black !important;
+}
+
+.caption-top th{
+    background-color: #DBE9F5;
+}

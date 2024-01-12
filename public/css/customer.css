@@ -1,0 +1,43 @@
+.checkbox-custom:not(:checked){
+    background-color: transparent;
+    border: 2px solid #92959A !important;
+}
+
+.checkbox-custom{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.label {
+    color: #92959A;
+    font-size: 20px;
+    font-family: Nunito;
+}
+.name {
+    color: #000;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 500;
+}
+
+.coupan{
+    cursor: pointer;
+}
+
+.coupan-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.coupan-desc{
+    font-size: 1.25rem;
+    color: #ABB2BB;
+}
+
+.coupan:hover{
+    border-color: #00A3FF !important;
+}
+
+.coupan:hover .coupan-title{
+    color: #00A3FF !important;
+}

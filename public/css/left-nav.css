@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left-nav{
+    border-right: 0.5px solid #CDD1D7;
+    cursor: pointer;
+}
+
+.left-nav > a{
+    border-top: 0.5px solid #CDD1D7 !important;
+}
+
+.left-nav > div:first-of-type{
+    border: none !important;
+}
+
+.left-nav .active .highlight{
+    width: 0.45rem;
+    background-color: #EF7C00;
+}
+
+.left-nav .active .options{
+    font-size: 1.25rem;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+
+.left-nav .highlight{
+    width: 0.45rem;
+}
+
+.left-nav .options{
+    font-size: 1.25rem;
+    font-family: 'Nunito', sans-serif;
+    color: #939EAA;
+}
